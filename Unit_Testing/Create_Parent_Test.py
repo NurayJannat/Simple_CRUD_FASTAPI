@@ -3,7 +3,7 @@ import requests
 
 def create_test(api_url, req_body):
     response = requests.post(api_url, json=req_body).json()
-
+    print(response)
     return response['success']
 
 

@@ -29,6 +29,11 @@ from .database import SessionLocal, engine
 # SessionLocal = create_db("sqlite:///./real.db")
 # models.Base.metadata.create_all(bind=engine)
 
+
+
+models.Base.metadata.create_all(bind=engine)
+
+
 app = FastAPI()
 
 
