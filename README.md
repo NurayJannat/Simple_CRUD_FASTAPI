@@ -45,6 +45,6 @@ uvicorn APP.main:app
 12 test cases have been added in unit testing. All these cases are described in **"APP/Unit_Testing/Test_cases.pdf"**
 To run testing, execute this command
 ```
-python3 APP/All_Test.py
+python3 Unit_Testing/All_Test.py
 ```
 If all test case is passed, app is running..
